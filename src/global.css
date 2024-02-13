@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DINPro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yuanti+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Han+Sans+SC:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-source-han-sans-sc: "Source Han Sans SC";
+  --font-sf-pro-text: "SF Pro Text";
+  --body-input-14px-sb: Poppins;
+  --font-dinpro: DINPro;
+  --font-open-sans: "Open Sans";
+  --font-yuanti-sc: "Yuanti SC";
+
+  /* font sizes */
+  --body-paragraph-16px-sb-size: 16px;
+  --body-input-14px-sb-size: 14px;
+  --font-size-lg: 18px;
+  --h1-30px-sb-size: 30px;
+  --body-small-12px-r-size: 12px;
+  --h3-22px-sb-size: 22px;
+  --body-label-8px-r-size: 8px;
+
+  /* Colors */
+  --grey-white: #fff;
+  --light-indigo: #7459d9;
+  --color-mediumslateblue-100: rgba(116, 89, 217, 0.2);
+  --label-light-secondary: rgba(60, 60, 67, 0.6);
+  --light-black: #11263c;
+  --grey-50: #d0d1d2;
+  --light-white-t4: rgba(66, 47, 138, 0.87);
+  --grey-40: #a2a3a5;
+  --background-light-tertiary: #f8f9fe;
+  --background-light-secondary: #f2f2f7;
+  --color-ghostwhite-100: #ece9f1;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-13xl: 32px;
+  --gap-mini: 15px;
+  --gap-9xs: 4px;
+  --gap-xl: 20px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-5xs: 8px;
+  --padding-4xs: 9px;
+  --padding-9xs: 4px;
+  --padding-11xl: 30px;
+  --padding-xl: 20px;
+  --padding-16xl: 35px;
+  --padding-3xl: 22px;
+  --padding-smi: 13px;
+  --padding-11xs: 2px;
+  --padding-sm: 14px;
+  --padding-xs: 12px;
+
+  /* Border radiuses */
+  --br-xl: 20px;
+  --br-81xl: 100px;
+  --br-9xs: 4px;
+  --br-base: 16px;
+  --br-lg: 18px;
+  --br-mini: 15px;
+
+  /* Effects */
+  --card-shadows-24dp-shadow: 0px 24px 24px rgba(50, 50, 71, 0.1),
+    0px 40px 48px rgba(50, 50, 71, 0.25);
+  --prompt-shadows-8px-shadow: 0px 8px 8px rgba(50, 50, 71, 0.08),
+    0px 8px 16px rgba(50, 50, 71, 0.06);
+  --prompt-shadows-4px-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08),
+    0px 4px 8px rgba(50, 50, 71, 0.01);
+}

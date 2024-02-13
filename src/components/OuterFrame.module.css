@@ -1,0 +1,173 @@
+.buttonFrameIcon,
+.nestedFrame {
+  width: 80px;
+  height: 80px;
+  position: relative;
+}
+.nestedFrame {
+  width: 42px;
+  height: 40px;
+  border-radius: var(--br-lg);
+  background: linear-gradient(
+    180deg,
+    rgba(238, 236, 250, 0),
+    #f9f9f9 51.44%,
+    rgba(238, 236, 250, 0)
+  );
+  transform: rotate(90deg);
+}
+.subRectangle {
+  height: 2px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+  box-sizing: border-box;
+}
+.iconFrames {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 var(--padding-smi);
+}
+.buttonFrameIcon1,
+.buttonFrameIcon2,
+.buttonFrameIcon3 {
+  align-self: stretch;
+  height: 66px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.headerFrame {
+  width: 42px;
+  height: 40px;
+  position: relative;
+  border-radius: var(--br-lg);
+  background: linear-gradient(
+    180deg,
+    rgba(238, 236, 250, 0),
+    #f9f9f9 51.44%,
+    rgba(238, 236, 250, 0)
+  );
+  transform: rotate(90deg);
+}
+.secondaryRectangle {
+  align-self: stretch;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+}
+.featherIconCommand {
+  height: 14px;
+  width: 14px;
+  position: relative;
+}
+.featherIcons {
+  border-radius: var(--br-mini);
+  background-color: var(--grey-white);
+  box-shadow: var(--prompt-shadows-4px-shadow);
+  border: 1px solid var(--background-light-secondary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-sm) var(--padding-smi)
+    var(--padding-xs);
+}
+.featherIconPieChart {
+  height: 14px;
+  width: 14px;
+  position: relative;
+}
+.featherIcons1 {
+  border-radius: var(--br-mini);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi);
+}
+.featherIconClock {
+  height: 14px;
+  width: 14px;
+  position: relative;
+}
+.featherIcons2 {
+  border-radius: var(--br-mini);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi);
+}
+.featherIconGlobe {
+  height: 14px;
+  width: 14px;
+  position: relative;
+}
+.featherIcons3 {
+  border-radius: var(--br-mini);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi);
+}
+.featherIconLoader {
+  height: 14px;
+  width: 14px;
+  position: relative;
+}
+.featherIcons4,
+.piechartFrame {
+  border-radius: var(--br-mini);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.featherIcons4 {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-smi);
+}
+.piechartFrame {
+  background-color: var(--background-light-tertiary);
+  flex-direction: column;
+  padding: var(--padding-11xs);
+  gap: var(--gap-5xs);
+}
+.commandFrame,
+.outerFrame {
+  align-self: stretch;
+  display: flex;
+}
+.commandFrame {
+  background-color: var(--grey-white);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-smi);
+}
+.outerFrame {
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
